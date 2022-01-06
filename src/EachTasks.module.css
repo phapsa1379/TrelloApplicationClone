@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.eachTasksBox
+{
+
+    width: 400px;
+    border-radius:10px ;
+    margin:20px 0;
+
+}
+
+.closeIcon
+{
+    font-size: 25px;
+    cursor:pointer;
+}
+
+
+.eachTasksHeader
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E9F2F1;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+.eachTasksHeaderTitle
+{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.eachTasksHeaderClose
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+
+}
+
+.eachTasksDescription
+{
+    padding:10px;
+    font-size: 16px;
+    background-color: white;
+    color: #34495e;
+
+}
+
+
+.eachTasksDate
+{
+    display: flex;
+    /*padding: 10px;*/
+    /*justify-content: space-around;*/
+    font-size: 18px;
+    /*background-color: #a5d8ff;*/
+    /*color: #076982;*/
+    background-color: white;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid  #cdcdcd;
+
+}
+
+
+
+.eachTasksDateStart
+{
+    text-align: center;
+    color: #2980b9;
+    padding: 20px 10px;
+    display: inline-block;
+    width: 50%;
+}
+
+.eachTasksDateStartText
+{
+    color: green;
+    font-weight: bold;
+}
+.eachTasksDateEndText
+{
+    color:red;
+    font-weight: bold;
+}
+
+.eachTasksDateEnd
+{
+    text-align: center;
+    padding: 20px 10px;
+    display: inline-block;
+    width: 50%;
+    color: #2980b9;
+}
+
+
+.eachTasksStatus
+{
+
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:#F5F9FA;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.eachTasksStatusTasks
+{
+
+    background-color: #3867D6;
+    color: white;
+    cursor:pointer;
+    padding:5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
+
+.eachTasksStatusDoing
+{
+    background-color: #ffa801;
+    color: white;
+    cursor:pointer;
+    padding:5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
+
+.eachTasksStatusDone
+{
+    background-color: #009432;
+    color: white;
+    cursor:pointer;
+    padding:5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
